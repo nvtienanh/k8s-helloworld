@@ -11,10 +11,10 @@ A simple web app written in Go that you can used for testing.
 
    ```shell
    # Build the container on your local machine
-   docker build -t nvtienanh/k8s-helloworld .
+   docker build -t nvtienanh/k8s-helloworld:latest .
 
    # Push the container to docker registry
-   docker push nvtienanh/k8s-helloworld
+   docker push nvtienanh/k8s-helloworld:latest
    ```
 
 1. After the build has completed and the container is pushed to docker registry, you
